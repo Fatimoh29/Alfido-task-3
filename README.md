@@ -1,5 +1,5 @@
 # 🛍️ Customer Behavior Analysis  
-!()[6616c33c-1478-4b09-851b-1dfba6a1639c.jpeg]
+![](Customer_Bahaviour_Image1.JPG)
 ## 📌 Project Overview  
 
 The **Customer Behavior Analysis** provides actionable insights into purchasing patterns, preferences, and behavior. By examining key metrics such as churn, return rates, and payment methods, businesses can make data-driven decisions to improve customer satisfaction and revenue growth.  
@@ -32,7 +32,7 @@ The business has a strong revenue base, but only **80% of consumers** are active
 - **40K Inactive Consumers**  
 
 **Insight:**  
-While a churn rate below 20% is reasonable, understanding why **40K customers** become inactive can help improve retention. Common reasons may include dissatisfaction with products or first-time buyers who do not return.  
+While a churn rate below 20% is reasonable, understanding why **40K customers** become inactive can help improve retention. Common reasons such as  dissatisfaction with products or first-time buyers who do not return.  
 
 **Recommendation:**  
 - Conduct feedback surveys to understand dissatisfaction drivers.  
@@ -85,8 +85,8 @@ The decline in 2023 suggests reduced customer engagement or market slowdown.
 ### **6️⃣ Leading Customers by Sales and Product Category**  
 
 - **Top Customers:**  
-  - Michael Johnson (Books, 22K)  
-  - Michael Smith (Clothing, 18K)  
+  - Michael Johnson(Books, 22K)  
+  - Michael Smith(Clothing, 18K)  
 
 **Insight:**  
 High-value customers primarily purchase books and clothing, driving significant revenue.  
@@ -125,8 +125,7 @@ Clothing and books dominate sales, while electronics and home categories present
 ---
 
 ## 🛠️ Technical Implementation Details  
-![](Screenshot(110)_040328.png)
-Screenshot (110)_040328.png
+![](Dashboard.PNG)
 ### **1️⃣ Power BI Visuals Used**  
 
 - **Pie Charts:**  
@@ -154,13 +153,15 @@ Screenshot (110)_040328.png
     - If `Age` ≤ 50, return "Middle Age"
     - If `Age` ≤ 70, return "Adult"
 
-### **3️⃣ Measures
+### 3️⃣ Measures
 
 	•	Total Revenue: SUM(Sales[Amount])
 	•	Churn Rate: DIVIDE(COUNTROWS(Churn[Inactive Customers]), COUNTROWS(Customers))
 	•	Return Rate: DIVIDE(COUNTROWS(Returns[Failed Transactions]), COUNTROWS(Sales))
 	•	Calendar Date (Month, Year, Quarter, Day):
 
-### **4️⃣ Data Transformation Techniques
+### 4️⃣ Data Transformation Techniques
 Power Query Editor: Cleaned and reshaped data for analysis.
-Relationships: Built relationships between purchase date and calender returns datasets for accurate analysis 
+Relationships: Built relationships between purchase date and calender date for accurate analysis 
+
+###  *Thank you*✨
